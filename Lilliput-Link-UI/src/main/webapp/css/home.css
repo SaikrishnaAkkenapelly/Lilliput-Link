@@ -1,0 +1,40 @@
+body, html
+{
+  height: 96vh;
+  background-image: linear-gradient(#e0d6d6, #708ccc);
+}
+
+#titleDiv
+{
+	color: #0040ff;
+	font-variant: small-caps;
+}
+
+#descriptionDiv
+{
+	color: #020a22;
+	font-style: italic;
+}
+
+input[type=text]
+{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=submit],input[type=button]
+{
+  width: 100%;
+  background-color: blue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
